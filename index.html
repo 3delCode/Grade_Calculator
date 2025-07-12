@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initialscale=1.0" />
+    <title>Grade Evaluation</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Enter Your Exam Grade</h2>
+      <form id="gradeForm">
+        <input
+          type="number"
+          id="grade"
+          placeholder="Enter your grade"
+          required
+        />
+        <button type="button" onclick="evaluateGrade()">Submit</button>
+      </form>
+      <p id="message"></p>
+    </div>
+    <script src="./grade.js"></script>
+  </body>
+</html>
